@@ -1,44 +1,44 @@
-        # ☁️ DevOps & Cloud Infrastructure Skills Suite
-        ### Derived from [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills)
+# ☁️ DevOps & Cloud Infrastructure Skills Suite
+### Derived from [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills)
 
-        ![Domain](https://img.shields.io/badge/Domain-DevOps%20&%20Cloud%20Infrastructure-blue?style=for-the-badge)
-        ![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
-        ![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
-        ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-DevOps%20&%20Cloud%20Infrastructure-blue?style=for-the-badge)
+![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
+![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-        > **Adaptation of `borghei/Claude-Skills` for DevOps & Cloud Infrastructure use cases.**
-        > Source focus: _245 skills, 14 domains, 18 compliance frameworks, 653 tools_
+> **Adaptation of `borghei/Claude-Skills` for DevOps & Cloud Infrastructure use cases.**
+> Source focus: _245 skills, 14 domains, 18 compliance frameworks, 653 tools_
 
-        ---
+---
 
-        ## What This Skill Suite Does
+## What This Skill Suite Does
 
-        CI/CD pipelines, container orchestration, IaC, monitoring and incident response.
+CI/CD pipelines, container orchestration, IaC, monitoring and incident response.
 
-        This collection provides **10 specialised commands** and
-        **5 multi-step workflows**, all with a consistent
-        structured-output UI so you always know exactly where you are and what to do next.
+This collection provides **10 specialised commands** and
+**5 multi-step workflows**, all with a consistent
+structured-output UI so you always know exactly where you are and what to do next.
 
-        ---
+---
 
-        ## Quick Install
+## Quick Install
 
-        ```bash
-        # Clone this skill
-        cp -r . ~/.claude/skills/r00-borghei-Claude-Skills--devops/
+```bash
+# Clone this skill
+cp -r . ~/.claude/skills/r00-borghei-Claude-Skills--devops/
 
-        # Register in Claude Code
-        # In a Claude Code session:
-        /read ~/.claude/skills/r00-borghei-Claude-Skills--devops/SKILL.md
-        ```
+# Register in Claude Code
+# In a Claude Code session:
+/read ~/.claude/skills/r00-borghei-Claude-Skills--devops/SKILL.md
+```
 
-        ---
+---
 
-        ## Commands
+## Commands
 
-        | Command | Description |
-        |---------|-------------|
-        | `/pipeline-generate` | Generate GitHub Actions / GitLab CI / Jenkins pipeline from repo analysis |
+| Command | Description |
+|---------|-------------|
+| `/pipeline-generate` | Generate GitHub Actions / GitLab CI / Jenkins pipeline from repo analysis |
 | `/docker-optimize` | Multi-stage Dockerfile optimisation for image size and build cache efficiency |
 | `/k8s-manifest` | Production-ready Kubernetes manifests with HPA, PDB and NetworkPolicies |
 | `/terraform-scaffold` | Terraform module scaffold with variables, outputs and state backend config |
@@ -49,39 +49,39 @@
 | `/secrets-audit` | Detect hardcoded secrets, rotate recommendations and vault migration plan |
 | `/rollback-plan` | Deployment rollback plan with canary thresholds and feature-flag kill switches |
 
-        **Usage:**
-        ```bash
-        /pipeline-generate <target>
-        /docker-optimize --scope full --output md
-        ```
+**Usage:**
+```bash
+/pipeline-generate <target>
+/docker-optimize --scope full --output md
+```
 
-        ---
+---
 
-        ## Workflows (Multi-step)
+## Workflows (Multi-step)
 
-        | Workflow | Description |
-        |----------|-------------|
-        | `release-pipeline` | Full GitOps release: tag → build → scan → stage → promote → monitor |
+| Workflow | Description |
+|----------|-------------|
+| `release-pipeline` | Full GitOps release: tag → build → scan → stage → promote → monitor |
 | `disaster-recovery` | DR drill: failover, RTO/RPO validation and runbook update workflow |
 | `infra-migration` | Lift-and-shift to cloud-native: assessment → IaC → cut-over checklist |
 | `sre-onboarding` | New service onboarding: SLOs, dashboards, runbooks and on-call rotation |
 | `devsecops-pipeline` | Shift-left security: SAST, DAST, SCA and policy-as-code gate workflow |
 
-        **Usage:**
-        ```bash
-        /workflows:release-pipeline <target> --scope full
-        ```
+**Usage:**
+```bash
+/workflows:release-pipeline <target> --scope full
+```
 
-        ---
+---
 
-        ## UI Design
+## UI Design
 
-        All commands display structured output with:
+All commands display structured output with:
 
-        - **Progress panels** — real-time step tracking
-        - **Findings tables** — sorted by severity (🔴🟠🟡🟢)
-        - **Action checklists** — quick wins → medium-term → strategic
-        - **Summary cards** — at-a-glance metrics after each command
+- **Progress panels** — real-time step tracking
+- **Findings tables** — sorted by severity (🔴🟠🟡🟢)
+- **Action checklists** — quick wins → medium-term → strategic
+- **Summary cards** — at-a-glance metrics after each command
 
 
 ## Progress Display Example
@@ -105,37 +105,37 @@ CRITICAL ALERTS
 ```
 
 
-        ---
+---
 
-        ## Interaction Pattern
+## Interaction Pattern
 
-        Every command follows this 5-step structure:
+Every command follows this 5-step structure:
 
-        ```
-        ① Scope Confirmation  — verify target and options with user
-        ② Live Analysis       — progress bar while working
-        ③ Findings Table      — structured results sorted by impact
-        ④ Action Plan         — prioritised, time-boxed recommendations
-        ⑤ Next Steps          — suggested follow-up commands
-        ```
+```
+① Scope Confirmation  — verify target and options with user
+② Live Analysis       — progress bar while working
+③ Findings Table      — structured results sorted by impact
+④ Action Plan         — prioritised, time-boxed recommendations
+⑤ Next Steps          — suggested follow-up commands
+```
 
-        ---
+---
 
-        ## Source Repository
+## Source Repository
 
-        This suite is derived from
-        **[borghei/Claude-Skills](https://github.com/borghei/Claude-Skills)**
-        which focuses on: _245 skills, 14 domains, 18 compliance frameworks, 653 tools_.
+This suite is derived from
+**[borghei/Claude-Skills](https://github.com/borghei/Claude-Skills)**
+which focuses on: _245 skills, 14 domains, 18 compliance frameworks, 653 tools_.
 
-        Improvements in this adaptation:
-        - Domain-specific command vocabulary for DevOps & Cloud Infrastructure
-        - Enhanced structured output with visual progress tracking
-        - Prioritised action plans with time estimates
-        - Workflow orchestration for end-to-end processes
-        - Consistent UI conventions across all commands
+Improvements in this adaptation:
+- Domain-specific command vocabulary for DevOps & Cloud Infrastructure
+- Enhanced structured output with visual progress tracking
+- Prioritised action plans with time estimates
+- Workflow orchestration for end-to-end processes
+- Consistent UI conventions across all commands
 
-        ---
+---
 
-        ## License
+## License
 
-        MIT — free to use, modify and distribute.
+MIT — free to use, modify and distribute.
